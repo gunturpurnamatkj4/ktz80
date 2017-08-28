@@ -1,0 +1,6 @@
+	LD A, 001H
+	LD B, 005H
+	LD C,B
+	LD (1000H), A
+	HALT
+	.END
